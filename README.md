@@ -1,8 +1,6 @@
 Node.js - google
 =====================
 
-[![build status](https://secure.travis-ci.org/jprichardson/node-google.svg)](http://travis-ci.org/jprichardson/node-google)
-
 This module allows you to search google by scraping the results. It does NOT use the Google Search API. **PLEASE DO NOT ABUSE THIS.** The intent of using this is convenience vs the cruft that exists in the Google Search API.
 
 This is not sponsored, supported, or affiliated with Google Inc.
@@ -12,13 +10,14 @@ your automated search requests. These sorts of requests are outside the scope of
 right to block consumers of their service for any reason.** See: [#27](https://github.com/jprichardson/node-google/issues/27),
 [#20](https://github.com/jprichardson/node-google/issues/20#issuecomment-74289023).
 
-[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
-
+Update
+------------
+I'm using a neat little recursion to ensure long term support. The original repository (the one on NPM) went out of date after google changed their CSS, but by using a little pattern matching I'm hoping to ensure this version is supported in the long run.
 
 Installation
 ------------
 
-    npm install --save google
+    npm install --save acenturyandabit/node-google-lts
 
 
 
